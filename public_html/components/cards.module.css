@@ -1,0 +1,62 @@
+.containerCards {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardsBox,
+.cardsBoxTwo {
+  width: 50%;
+}
+.cardsBoxTwo img {
+  width: 100%;
+}
+.containerCards h1 {
+  color: #4650b1;
+  font-size: 50px;
+  line-height: 40pt;
+  font-family: "Fredoka One";
+  font-weight: normal;
+}
+
+.cardsBox {
+  margin-left: 80px;
+}
+
+.containerCards h2 {
+  color: #5c5c5c;
+  font-weight: light;
+  line-height: 23pt;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.coin {
+  width: 93%;
+  margin: auto;
+}
+.coin img {
+  width: 100px;
+}
+
+.coinTwo img {
+  width: 110px;
+}
+
+@media (max-width: 580px) {
+  .containerCards {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  .cardsBox,
+  .cardsBoxTwo {
+    width: 100%;
+  }
+  .imgDownload img {
+    width: 150px;
+  }
+}

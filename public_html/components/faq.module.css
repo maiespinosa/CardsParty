@@ -1,0 +1,53 @@
+.containerFaq {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.box {
+  color: white;
+  width: 30%;
+  border-radius: 10px;
+  background-color: #c5caff;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 4px 2px 30px rgba(123, 119, 214, 0.4);
+}
+.box img {
+  width: 150px;
+}
+.box h3 {
+  font-family: "Fredoka One";
+  font-weight: normal;
+}
+.box p {
+  font-family: "Open Sans", sans-serif;
+}
+
+@media (max-width: 580px) {
+  .containerFaq {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    padding-top: 40px;
+    justify-content: center;
+
+    padding-bottom: 40px;
+  }
+  .box {
+    color: white;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}

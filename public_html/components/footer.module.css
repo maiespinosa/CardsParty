@@ -1,0 +1,39 @@
+.footerStyle {
+  width: 100%;
+  padding: 30px 60px;
+  background-color: #7b77d6;
+  border-radius: 50px 50px 0px 0px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.imgOne img {
+  width: 150px;
+}
+
+.imgTwo img {
+  width: 60px;
+}
+
+.socialMedia img {
+  width: 20px;
+  margin: 0px 10px;
+}
+@media (max-width: 580px) {
+  .imgOne img {
+    width: 90px;
+  }
+
+  .imgTwo img {
+    width: 30px;
+  }
+
+  .socialMedia img {
+    width: 20px;
+    margin: 0px 10px;
+  }
+}

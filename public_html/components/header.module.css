@@ -1,0 +1,138 @@
+.headerHome {
+  width: 100%;
+  margin: 0px;
+}
+.headerHome img {
+  width: 80%;
+  margin-top: 50px;
+  z-index: 90;
+}
+
+.containerHome {
+  display: flex;
+  flex-flow: row;
+}
+
+.containerHome h1 {
+  color: #4650b1;
+  font-size: 50px;
+  line-height: 40pt;
+  font-family: "Fredoka One";
+  font-weight: normal;
+}
+
+.containerHome h2 {
+  color: #5c5c5c;
+  font-weight: light;
+  line-height: 23pt;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.imgDownload img {
+  width: 180px;
+}
+
+.diagonal {
+  position: absolute;
+  z-index: -1;
+  margin-top: -50px;
+  position: relative;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-content: center;
+  background: #7b77d6;
+  display: flex;
+  flex-flow: row;
+}
+
+.diagonal:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: inherit;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  transform-origin: top right;
+  transform: skewY(10deg);
+}
+.iphoneImg {
+  display: flex;
+  flex-flow: row;
+}
+.diagonal h1 {
+  color: white;
+  font-size: 40px;
+  line-height: 30pt;
+  font-family: "Fredoka One";
+  font-weight: normal;
+}
+.containerDiagonal {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-flow: row;
+}
+
+.diagonal p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.info {
+  margin-top: 10%;
+  margin-left: 100px;
+}
+
+.txt {
+  padding: 70px;
+  margin-top: 40px;
+}
+
+@media (max-width: 580px) {
+  .containerHome {
+    display: flex;
+    flex-flow: column;
+  }
+  .info {
+    margin-top: 0;
+    margin-left: auto;
+    width: 90%;
+    margin-right: auto;
+  }
+  .imgDownload img {
+    width: 160px;
+    margin-top: 0px;
+  }
+  .diagonal {
+    margin-top: 100px;
+  }
+  .containerDiagonal {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-flow: column;
+  }
+  .txt {
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
