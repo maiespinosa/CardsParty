@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./cards.module.css";
 import Link from "next/link";
-
+ 
 const Cards = (props) => {
   return (
     <section>

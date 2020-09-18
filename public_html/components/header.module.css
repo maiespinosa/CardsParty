@@ -1,4 +1,5 @@
 .headerHome {
+  box-sizing: border-box;
   width: 100%;
   margin: 0px;
 }
@@ -9,6 +10,7 @@
 }
 
 .containerHome {
+  box-sizing: border-box;
   display: flex;
   flex-flow: row;
 }
@@ -47,6 +49,7 @@
   background: #7b77d6;
   display: flex;
   flex-flow: row;
+  box-sizing: border-box;
 }
 
 .diagonal:after {
@@ -63,10 +66,7 @@
   transform-origin: top right;
   transform: skewY(10deg);
 }
-.iphoneImg {
-  display: flex;
-  flex-flow: row;
-}
+
 .diagonal h1 {
   color: white;
   font-size: 40px;
@@ -134,5 +134,8 @@
     padding: 0px;
     margin-top: 40px;
     margin-bottom: 40px;
+  }
+  .iphoneImg img {
+    width: 100%;
   }
 }
